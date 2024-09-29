@@ -7,14 +7,11 @@
 body{
     background-color: #484753;
     color: white;
-    font-family: "Playwrite DE Grund", cursive;   
+    font-family: "Playwrite DE Grund", cursive;
+    
 
 }
 
-h1{
-font-size: 50px;
-
-}
 
 nav{
 
@@ -35,5 +32,14 @@ nav{
 }
 
 
+h1{
+font-size: 50px;
 
+}
+
+
+img {
+
+width: 50%;
+}
 
