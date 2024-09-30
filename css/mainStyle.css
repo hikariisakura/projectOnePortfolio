@@ -2,38 +2,202 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: "Playwrite DE Grund", sans-serif; 
+    color: #ffffff;
+  
 }
 
-body{
-    background-color: #484753;
-    color: white;
-    font-family: "Playwrite DE Grund", cursive;   
-
-}
 
 h1{
-font-size: 50px;
+    font-family: "Satisfy", sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
 
 }
+
+
+p{
+
+    border-radius: 25px;
+    background-color: #ffcee6;
+ 
+    color: #484753;
+    padding: 30px;
+    width: 80%;
+    height: auto;
+    text-align: justify;
+}
+
+
+a{
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    font-family: "Satisfy", sans-serif;
+    font-weight: 300;
+
+
+}
+
+
+
+body{
+    background-color:#484753;
+    
+    
+
+
+
+}
+
 
 nav{
 
-    font-family: "Playwrite DE Grund", cursive; 
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-   
-    a{
-        color: aliceblue;
-        text-decoration: none;
-        padding: 5px;
-    }
+    background-color: #90bbfc;
+   padding: 20px; 
+    border-bottom: 5px solid #ffcee6;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+sectionOne{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+sectionTwo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+sectionThree{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+sectionThree{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer{
+ 
+    padding: 25px;
+    background: #90bbfc;
+    text-align: center;
+    font-weight: 300;
 
 
 }
 
+.flower{
+
+    width: 90px;
+    height: fit-content;
+ 
+}
+
+.girl{
+
+    width: 500px;
+    height: fit-content;
+}
+
+
+
+
+#aboutPage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #484753;
+    
+   
+
+}
+
+#art {
+   display: flex;
+   justify-content: center;
+  
+  }
+
+
+#bio {
+ 
+    width: auto;
+    padding: 10px;
+    margin-right: 20px;
+  
+  }
+
+
+  
+h2{
+    padding: 20px;
+}
+
+
+h3{
+display: flex;
+justify-content: center;
+font-size: 50px;
+padding: 20px;
+
+}
+
+h4{
+
+    font-weight: 300;
+    padding: 20px;
+}
+
+h5{
+
+    font-weight: 300;
+}
+
+
+.photo {
+width: 50%;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+}
+
+ol, ul, dl {
+
+    padding: 20px;
+
+ 
+}
 
 
 
