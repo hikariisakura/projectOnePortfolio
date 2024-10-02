@@ -1,4 +1,5 @@
 * {
+
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -9,6 +10,7 @@
 
 
 h1{
+
     font-family: "Satisfy", sans-serif;
     font-size: 80px;
     font-weight: 300;
@@ -16,6 +18,49 @@ h1{
     padding: 10px;
 
 }
+
+  
+h2{
+
+    font-family: "Satisfy", sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    text-align: center;
+    font-size:30px ;
+    border-radius: 25px;
+    background-color: #ffcee6;
+    color: #484753;
+
+}
+
+
+h3{
+
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+h4{
+
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+   
+
+}
+
+h5{
+
+    font-weight: 300;
+}
+
 
 
 p{
@@ -37,7 +82,6 @@ a{
     font-family: "Satisfy", sans-serif;
     font-weight: 300;
 
-
 }
 
 
@@ -55,7 +99,7 @@ body{
 nav{
 
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -69,37 +113,16 @@ nav{
 
 }
 
-sectionOne{
+sectionOne, sectionTwo, sectionDanmei, sectionRead, sectionArtists{
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 15px;
+
 }
 
-sectionTwo{
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 15px;
-}
-
-sectionThree{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 15px;
-}
-
-sectionThree{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 15px;
-}
 
 footer{
  
@@ -108,7 +131,36 @@ footer{
     text-align: center;
     font-weight: 300;
 
+}
 
+
+#aboutPage{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #484753;
+
+}
+
+#art {
+
+   display: flex;
+   justify-content: center;
+  
+}
+
+
+#bio {
+ 
+    width: auto;
+    padding: 10px;
+    margin-right: 20px;
+  
 }
 
 .flower{
@@ -125,93 +177,6 @@ footer{
 }
 
 
-
-
-#aboutPage{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 90%;
-    margin: auto;
-    justify-content: center;
-    border-radius: 25px;
-    background-color: #484753;
-    
-   
-
-}
-
-#art {
-   display: flex;
-   justify-content: center;
-  
-  }
-
-
-#bio {
- 
-    width: auto;
-    padding: 10px;
-    margin-right: 20px;
-  
-  }
-
-
-  
-h2{
-    padding: 20px;
-    text-align: center;
-}
-
-
-h3{
-display: flex;
-justify-content: center;
-font-size: 50px;
-padding: 20px;
-
-}
-
-h4{
-
-    font-size: 20px;
-    font-weight: 300;
-    padding: 20px 150px 60px 150px;
-    display: flex;
-    justify-content: center;
-   
-
-}
-
-h5{
-
-    font-weight: 300;
-}
-
-
-.photo {
-width: 50%;
-
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding: 0px 20px 20px 20px;
-}
-
-
-ol, ul, dl {
-
-    padding: 20px;
-    font-size: 30px;
-    font-family: "Playwrite DE Grund", sans-serif; 
-
- 
-
-
-
-
- 
-}
 
 
 

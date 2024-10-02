@@ -1,28 +1,61 @@
 body{
+
     align-items: center;
+    
 }
 
+sectionSongs{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+
 ol, ul {
+
     display: inline-block;
     justify-content: center;
     align-items: center;
     list-style-position: inside;
     text-align: center;
-}
 
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 30px;
 
-ol, ul, dl {
-
-    padding: 20px;
     margin-left: auto;
     margin-right: auto;
 
     img{
         width: 500px;
 
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 50px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
 }
+
+
+dl{
+
+    padding: 20px;
+
+}
+
+
+#books{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+

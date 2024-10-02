@@ -1,0 +1,44 @@
+
+sectionArtists{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+#artists{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+
+#clamp, #enk, #svt{
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  
+}
+
+
+.photo {
+
+    width: 50%;
+    height: fit-content;
+    
+    display: block;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px 20px 20px;
+
+}
+    
+    
