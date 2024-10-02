@@ -44,6 +44,7 @@ h3{
 
 }
 
+
 h4{
 
     font-size: 20px;
@@ -56,11 +57,12 @@ h4{
 
 }
 
+
 h5{
 
     font-weight: 300;
-}
 
+}
 
 
 p{
@@ -83,7 +85,6 @@ a{
     font-weight: 300;
 
 }
-
 
 
 body{
@@ -113,6 +114,7 @@ nav{
 
 }
 
+
 sectionOne, sectionTwo, sectionDanmei, sectionRead, sectionArtists{
 
     display: flex;
@@ -121,7 +123,6 @@ sectionOne, sectionTwo, sectionDanmei, sectionRead, sectionArtists{
     padding: 15px;
 
 }
-
 
 
 footer{
@@ -147,6 +148,7 @@ footer{
 
 }
 
+
 #art {
 
    display: flex;
@@ -163,12 +165,14 @@ footer{
   
 }
 
+
 .flower{
 
     width: 90px;
     height: fit-content;
  
 }
+
 
 .girl{
 
